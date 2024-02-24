@@ -1,17 +1,25 @@
 # tabb
 
-#### 简介
+#### summary
 
-浏览器内部的搜索只能根据 url/title 进行搜索, tabb可以根据页面的内容进行搜索,支持对 tab/bookmark/history 的内容进行搜索
+The internal search in the browser can only search based on url/title, while tabb can search based on the content of the page, supporting searching for the content of tab/bookmark/history.
 
-安装之后, 直接点击图标 或者 Cmd+K (mac), Ctrl+K(other) 使用
+The effect is as follows:
 
-效果如下:
 ![tabb1](./asset/tabb1.png)
+
 ![tabb2](./asset/tabb2.png)
 
+#### Installation/Usage
 
+You need to enable developer mode and then load dist/chrome.
 
-#### 使用
+After installation, simply click on the icon or use Cmd+K (mac), Ctrl+K (other) to use it.
 
-需要开启开发者模式, 然后加载 dist/chrome
+Tabb: A browser extension tool that allows deep searching of Tabs/Bookmarks/History.
+
+You can search for content on a page. I saw a tool before that could search for Tabs, often I would have browsed a page earlier but couldn't find it again. The internal tools of the browser can only search url/title; so I made a small tool that can index url/title/content.
+
+Feel free to try it out!
+
+Project link: https://github.com/Infinite1loop/tabb
